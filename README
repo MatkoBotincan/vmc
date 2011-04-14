@@ -3,10 +3,10 @@ Verified Featherweight Multicore C
 
 VFMC (Verified Featherweight Multicore C) is a fragment of C enriched with
 asynchronous  memory operations and fork/join primitives, together with 
-function preconditions and  postconditions and loop invariants. VFMC aims to
+function pre-conditions and post-conditions and loop invariants. VFMC aims to
 serve as an experimental intermediate language for verification of multicore 
 C programs. 
-Poossible uses include verification for heterogeneous architectures with a 
+Possible uses include verification for heterogeneous architectures with a 
 host CPU and a number of accelerator cores (such as IBM Cell Broadband Engine)
 or verification of GPU (e.g., CUDA, OpenCL) programs.
 
@@ -33,3 +33,5 @@ Dependencies:
 * OCaml >=3.11.1
   http://caml.inria.fr/download.en.html
   Debian / Ubuntu: ocaml, ocaml-native-compilers
+* CoreStar
+  https://github.com/MatkoBotincan/corestar
